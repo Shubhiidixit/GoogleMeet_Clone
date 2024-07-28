@@ -6,11 +6,6 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
-      "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
   },
   "keywords": [],
   "author": "",
@@ -22,5 +17,13 @@
     "socket.io": "^2.3.0",
     "uuid": "^8.3.0",
     "webrtc-adapter": "^7.7.0"
+  },
+  "vercel": {
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "@vercel/node"
+      }
+    ]
   }
 }
