@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "http://localhost:5000/",
+            "permanent": true
+        }
+    ]
+}
